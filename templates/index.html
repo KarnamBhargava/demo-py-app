@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        img {
+            max-width: 300px;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            margin: auto;
+            max-width: 700px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="{{ url_for('static', filename='images/company_logo.png') }}" alt="Company Logo">
+        <h1>World’s best Cloud Training & Consulting</h1>
+        <p>
+            Cloud consulting services company offers services in Cloud, DevOps, AI & ML, IoT, Data analytics 
+            and Cloud Security to midsize and enterprise clients worldwide.
+        </p>
+    </div>
+</body>
+</html>
