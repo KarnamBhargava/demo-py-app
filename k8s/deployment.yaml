@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Python-Application
+  name: python-application
   labels:
     app: pyapp
 spec:
